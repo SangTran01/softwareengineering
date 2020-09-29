@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybutton"
+    android:orientation="vertical"
+    tools:context="com.neonatal.app.src.AboutActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:text="This app was create by students at Mohawk college for the NICU deparment at McMaster Childrens hospital. All data recorded with this app is stored locally on this device and not stored anywhere on the cloud at this time."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="The Students involved with this project are : Brad Alfano, Sang Tran, Zachary Lucas, Owen Bryan, Gurpreet Punj, Maurice Deveries, Nenad Skocic, Wanming Hu."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

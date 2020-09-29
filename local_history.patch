@@ -1,0 +1,50 @@
+Index: app/src/main/java/com/neonatal/app/src/EquipDetailActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/neonatal/app/src/EquipDetailActivity.java	(date 1554843905467)
++++ app/src/main/java/com/neonatal/app/src/EquipDetailActivity.java	(date 1554843905467)
+@@ -5,6 +5,8 @@
+ import android.support.v4.content.ContextCompat;
+ import android.support.v7.app.AppCompatActivity;
+ import android.support.v7.widget.Toolbar;
++import android.view.View;
++import android.view.ViewStub;
+ import android.widget.ImageView;
+ import android.widget.TextView;
+ 
+@@ -12,7 +14,7 @@
+  * Created by Nenad on 2017-12-12.
+  */
+ 
+-public class EquipDetailActivity extends AppCompatActivity {
++public class EquipDetailActivity extends DrawerActivity {
+ 
+     Toolbar mToolbar;
+     ImageView equipImage;
+@@ -21,12 +23,22 @@
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+ 
+-        setContentView(R.layout.activity_equip_details);
++        //setContentView(R.layout.activity_equip_details);
++        //setContentView(R.layout.activity_equip_details);
++
++        super.onCreateDrawer();
++
++        ViewStub stub = (ViewStub) findViewById(R.id.layout_stub);
++        stub.setLayoutResource(R.layout.activity_equip_details);
++        View inflated = stub.inflate();
++        mToolbar = (Toolbar) findViewById(R.id.toolbar2);
++        setSupportActionBar(mToolbar);
+ 
+         equipImage = findViewById(R.id.photoView);
+-        mToolbar = findViewById(R.id.toolbar2);
+         TextView textView = findViewById(R.id.textViewEquip);
+ 
++
++
+         Bundle bundle = getIntent().getExtras();
+         mToolbar.setTitleTextColor(Color.WHITE);
+ 

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neonatal.app.src.PatientMenuActivity"
+    android:background="@drawable/mybutton">
+
+    <TextView
+        android:id="@+id/textView_titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="163dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/patientMenuTitle"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="monospace" />
+
+    <Button
+        android:id="@+id/btn_journal"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/mybutton"
+        android:onClick="ViewJournal"
+        android:text="@string/viewJournal"
+        android:textSize="@dimen/lblSize"
+        app:layout_constraintBottom_toTopOf="@+id/btn_history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/mybutton"
+        android:onClick="ViewHistory"
+        android:text="@string/viewHistory"
+        android:textSize="@dimen/lblSize"
+        app:layout_constraintBottom_toTopOf="@+id/textView_copyrightText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_copyrightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginStart="163dp"
+        android:text="@string/copyright_2017"
+        android:textSize="@dimen/footerSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_sexTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sex_title"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_titleText"
+        app:layout_constraintBottom_toTopOf="@id/textView_birthDateTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView_sexValue" />
+
+    <TextView
+        android:id="@+id/textView_sexValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_titleText"
+        app:layout_constraintBottom_toTopOf="@id/textView_birthDateValue"
+        app:layout_constraintStart_toEndOf="@id/textView_sexTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_birthDateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birth_date_title"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_sexTitle"
+        app:layout_constraintBottom_toTopOf="@id/textView_ageTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView_birthDateValue" />
+
+    <TextView
+        android:id="@+id/textView_birthDateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_sexValue"
+        app:layout_constraintBottom_toTopOf="@id/textView_ageValue"
+        app:layout_constraintStart_toEndOf="@id/textView_birthDateTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_ageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_title"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_birthDateTitle"
+        app:layout_constraintBottom_toTopOf="@id/textView_gestationalAgeTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView_ageValue" />
+
+    <TextView
+        android:id="@+id/textView_ageValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_birthDateValue"
+        app:layout_constraintBottom_toTopOf="@id/textView_gestationalAgeValue"
+        app:layout_constraintStart_toEndOf="@id/textView_ageTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_gestationalAgeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestational Age:"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_gestationalAgeTitle"
+        app:layout_constraintBottom_toTopOf="@id/btn_journal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView_gestationalAgeValue" />
+
+    <TextView
+        android:id="@+id/textView_gestationalAgeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="96dp"
+        app:layout_constraintTop_toBottomOf="@id/textView_gestationalAgeValue"
+        app:layout_constraintBottom_toTopOf="@id/btn_journal"
+        app:layout_constraintStart_toEndOf="@id/textView_gestationalAgeTitle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

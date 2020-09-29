@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Neonatal</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="copyright_2017">Copyright-2017</string>
+    <string name="Neanato_App">Neonatal Nurseries</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="phone">Phone (XXX-XXX-XXXX)</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mile_stone">Mile Stone</string>
+    <string name="physical_development">Physical Development</string>
+    <string name="manu">Navigate</string>
+
+    <string-array name="Sex_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="PreMatrureweeks">
+        <item>1 Week</item>
+        <item>2 Weeks</item>
+        <item>3 Weeks</item>
+        <item>4 Weeks</item>
+        <item>5 Weeks</item>
+        <item>6 Weeks</item>
+        <item>7 Weeks</item>
+        <item>8 Weeks</item>
+        <item>9 Weeks</item>
+        <item>10 Weeks</item>
+        <item>11 Weeks</item>
+        <item>12 Weeks</item>
+        <item>13 Weeks</item>
+        <item>14 Weeks</item>
+        <item>15 Weeks</item>
+        <item>16 Weeks</item>
+        <item>17 Weeks</item>
+        <item>18 Weeks</item>
+        <item>19 Weeks</item>
+        <item>20 Weeks</item>
+        <item>21 Weeks</item>
+        <item>22 Weeks</item>
+        <item>23 Weeks</item>
+        <item>24 Weeks</item>
+    </string-array>
+
+    <string name="title_activity_main">DrawBaseActivity</string>
+    <string name="title_activity_drawer_base">DrawerBaseActivity</string>
+    <string name="menu">menu</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_bar">barActivity</string>
+    <string name="projects">list</string>
+    <string name="add_new_patient">Add New Patient</string>
+    <string name="update_selected">Update Selected</string>
+    <string name="title_activity_journal">JournalActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="newPatient">New Baby</string>
+    <string name="nicuVideo">NICU Virtual Tour</string>
+    <string name="mainMenuTitle">Neonatal App</string>
+    <string name="viewHistory">Baby History</string>
+    <string name="viewAppointments">Appointments</string>
+    <string name="viewJournal">Journal</string>
+    <string name="patientMenuTitle">Baby Name</string>
+    <string name="equip_name">NICU Equipment</string>
+    <string name="image_description">Image description</string>
+    <string name="equip_cm_summary">Wires attached to your baby\'s chest are hooked up to a screen that
+        monitors your baby\'s heart rate, breathing rate, and oxygen in their blood.</string>
+    <string name="equip_cvc_summary">A type of IV that is in your baby\'s chest to give your baby fluids,
+        nutrients, or medications.</string>
+    <string name="equip_cpap_summary">A device that is put over your baby\'s nose to help them breathe.
+        It is also called "CPAP".</string>
+    <string name="equip_i_summary">A type of bed that is closed on all sides to keep your baby warm and safe.</string>
+    <string name="equip_nt_summary">A small tube that is put in your baby\'s nose or mouth and goes down into their
+        stomach. it helps to feed your baby breast milk or formula.</string>
+    <string name="equip_pic_summary">A type of IV that is in your baby\'s hand, foot, leg, or scalp to give your baby
+        fluids, nutrients, or medications.</string>
+    <string name="equip_p_summary">A type of light that is used to help break down bilirubin in your baby\'s blood</string>
+    <string name="equip_po_summary">A wire that is attached to your baby\'s foot or wrist to monitor the amount of oxygen
+        in their blood.</string>
+    <string name="equip_uc_summary">A type of IV that is in your baby\'s umbilical cord to give your baby fluids, nutrients
+        or medications.</string>
+    <string name="define_neonatologist">A pediatrician with special training in the care of very sick and premature
+        babies. The neonatologist is in charge of your baby’s care.</string>
+    <string name="define_neo_fellow">Pediatricians who are getting more training in the care of sick and premature babies.
+        They work in the NICU and report to the neonatologist. </string>
+    <string name="define_resident">Residents are doctors who are
+        learning about the care of sick children
+        and premature babies. They are
+        training to become pediatricians.</string>
+    <string name="define_np">A nurse with advanced education and skills
+        in the care of sick and premature babies,
+        and their families.</string>
+    <string name="define_rn">The nurses who work in the NICU
+        have training and experience in
+        nursing care of sick babies and
+        their families.</string>
+    <string name="define_charge_nurse">A Registered Nurse who is responsible
+        for looking after the day-to-day activities
+        in the unit. </string>
+    <string name="define_rt">The RT assists the nurses and doctors
+        with the treatment and care of babies
+        with breathing and lung problems.</string>
+    <string name="define_social_worker">Social Workers help individuals and
+        families cope with problems they are
+        facing, to improve their hospital stay.
+        They can give you and your family
+        practical and emotional support while your
+        baby is in the hospital and when you are
+        planning to go home. </string>
+    <string name="define_pharmacist">The pharmacist works very closely
+        with the doctors and nurses to provide
+        safe medication therapy.</string>
+    <string name="define_ot">The occupational therapist assesses your
+        baby’s development. An OT can plan
+        activities for your baby to learn new skills.
+        This can help overcome problems such as
+        feeding difficulties, long-term hospital stays,
+        and positioning care.</string>
+    <string name="define_dietitian">The dietitian works with the doctors
+        and nurses to plan the best nutrition
+        for your baby. The dietitian also
+        helps mothers with breastfeeding
+        support and advice about healthy
+        eating.</string>
+    <string name="define_lac_consult">The lactation consultant is a specially
+        trained staff member who can support
+        and help mothers with breastfeeding
+        and pumping. </string>
+    <string name="define_bus_clerk">The business clerk greets and
+        directs families and visitors in the
+        NICU. The business clerk helps
+        with telephone calls and mail,
+        books tests and appointments for
+        the babies. They help make the
+        arrangements for babies’
+        admission, transfer and discharge.</string>
+    <string name="define_health_care_aide">The health care aide keeps equipment
+        working, stocks the supplies in the unit,
+        and takes specimens to the lab for
+        testing. The HCA may also help the
+        nurse during procedures, or when taking
+        your baby for tests.</string>
+    <string name="define_ea">The environmental aide helps to
+        keep the nursery clean. The EA is
+        the person who washes all the
+        incubators and baby warmers.</string>
+    <string name="define_learners">As this is a teaching hospital, you may
+        meet student doctors, student nurses
+        and other learners on the health
+        care team. Each student works under
+        the close supervision of a fully trained
+        health professional. These learners may
+        be involved in your baby’s care.</string>
+    <string name="define_kangaroo_care">Holding your baby skin-to-skin is one of the best things you can do for your
+baby and it’s great for you as well! \n\n Kangaroo Care helps babies breathe, calms them, protects them from infection and helps their brain develop. It can also help you with breast milk
+production and bonding with your baby. </string>
+    <string name="define_hand_hugging">For babies that aren’t quite well enough for Kangaroo Care, you can still
+provide comfort by doing a hand-hug. This involves gently cupping your
+baby’s head and feet. Ask your nurse to show you how. </string>
+    <string name="define_LOC1">A hospital nursery that provides care to healthy newborn
+babies.  </string>
+    <string name="define_LOC2">A hospital special care nursery that provides care to babies
+born after 32 weeks\' gestation and weigh more than 1500 g.
+\n\n Babies may need special care such as intravenous (IV) fluids,
+help with feeding, help with breathing or special medicine.
+\n\n Babies in Level 2 may also be recovering from a more serious
+condition. </string>
+    <string name="define_LOC3">A hospital NICU that provides life support and specialized
+24-hour care for babies that are very sick. This includes
+babies born at all gestational ages and weights, and babies
+born with complex and critical illnesses.
+\n\n Babies who need level 3 care need to be watched very closely
+and need very special care. This includes help with breathing
+and feeding.
+\n\n Babies in Level 3 may also need special medication,
+testing/imaging, or surgery. </string>
+    <string name="logo">Logo</string>
+    <string name="welcome_to_nicu">Welcome to NICU</string>
+    <string name="sex_title">Sex:</string>
+    <string name="birth_date_title">Birth Date:</string>
+    <string name="age_title">Age:</string>
+    <string name="enter_new_data">Enter new data</string>
+    <string name="email_hint">Email (yourname@example.com)</string>
+    <string name="username_hint">Username (6+ characters)</string>
+    <string name="password_hint">Password (6+ characters)</string>
+    <string name="journal_date">Date Entered:</string>
+    <string name="welcome_book">Welcome Book</string>
+
+    <string-array name="equipmentArr">
+
+        <!--<item>A</item>-->
+        <item>Business Clerk</item>
+        <item>Cardiopulmonary Monitor</item>
+        <item>Central Venous Catheter</item>
+        <item>Charge Nurse/Resource Nurse (RN)</item>
+        <item>Continuous Positive Airway Pressure</item>
+        <item>Dietitian</item>
+        <item>Environmental Aide (EA)</item>
+        <!--<item>F</item>-->
+        <!--<item>G</item>-->
+        <!--<item>H</item>-->
+        <item>Hand Hugging</item>
+        <item>Health Care Aide</item>
+        <item>Incubator</item>
+        <item>Lactation Consultant</item>
+        <!--<item>J</item>-->
+        <!--<item>K</item>-->
+        <item>Kangaroo Care</item>
+        <item>Learners</item>
+        <item>Levels of Care</item>
+        <!--<item>M</item>-->
+        <item>Nasogastric Tube</item>
+        <item>Neonatologist</item>
+        <item>Neonatal Fellow</item>
+        <item>Nurse Practitioner (NP)</item>
+        <item>Occupational Therapist (OT)</item>
+        <item>Peripheral Intravenous Catheter</item>
+        <item>Pharmacist</item>
+        <item>Phototherapy</item>
+        <item>Pulse Oximeter</item>
+        <!--<item>Q</item>-->
+        <item>Registered Nurse (RN)</item>
+        <item>Resident</item>
+        <item>Respiratory Therapist (RT)</item>
+        <item>Social Worker</item>
+        <!--<item>T</item>-->
+        <item>Umbilical Catheter</item>
+        <!--<item>V</item>-->
+        <!--<item>W</item>-->
+        <!--<item>X</item>-->
+        <!--<item>Y</item>-->
+        <!--<item>Z</item>-->
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="layers_array" >
+        <item>My babies list</item>
+        <item>NICU Tour</item>
+        <item>Baby History</item>
+        <item>Graphs</item>
+        <item>Journal</item>
+        <item>Definitions &amp; Equipment</item>
+        <item>Events</item>
+        <item>About</item>
+        <item>Log out</item>
+    </string-array>
+
+</resources>
